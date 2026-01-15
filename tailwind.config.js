@@ -5,6 +5,13 @@ module.exports = {
     "./pages/**/*.html"
   ],
   theme: {
+    screens: {
+      'xs': '400px',     // New custom breakpoint for 400px
+      'sm': '640px',     // Standard Tailwind
+      'md': '768px',     // Standard Tailwind
+      'lg': '1024px',    // Standard Tailwind
+      'xl': '1280px',    // Standard Tailwind
+    },
     extend: {
       colors: {
         'terracotta': {
